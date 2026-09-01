@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    environment:
+      # The model runs on the host, not in this container.
+      OLLAMA_HOST: ${OLLAMA_HOST:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5-coder:7b}
+      DB_PATH: /srv/db/analytics.db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8000:8000"
