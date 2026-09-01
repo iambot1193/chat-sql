@@ -70,6 +70,7 @@ Máquina: o modelo ocupa ~6 GB de RAM. Em CPU, ~10-30s por pergunta; com GPU de
 ```bash
 python test_sql_guard.py
 python test_retry.py
+# ou, com pytest instalado, ambos de uma vez: pytest
 ```
 
 ## Usar seu próprio banco
@@ -80,5 +81,5 @@ seu domínio, é o que mais afeta a qualidade da SQL gerada.
 
 ## Planos
 
-- [PLANO-GRATIS.md](PLANO-GRATIS.md) — o que está em execução
-- [PLANO-NUVEM.md](PLANO-NUVEM.md) — alternativa com LLM hospedado, guardada
+- [docs/PLANO-GRATIS.md](docs/PLANO-GRATIS.md) — o que está em execução
+- [docs/PLANO-NUVEM.md](docs/PLANO-NUVEM.md) — alternativa com LLM hospedado, guardada
