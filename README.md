@@ -8,7 +8,7 @@ resultado numa planilha que atualiza a cada resposta.
 Roda inteiro na sua máquina: modelo local via Ollama, banco SQLite. Sem chave de
 API, sem cota, custo zero.
 
-<!-- TODO: gravar um GIF de ~10s (pergunta -> SQL -> planilha) e referenciar aqui -->
+![Chat SQL — pergunta em português vira SQL e planilha](assets/demo.png)
 
 ## Rodar
 
